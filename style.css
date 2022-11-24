@@ -187,7 +187,6 @@ header {
     cursor: pointer;
     opacity: .8;
     z-index: 100;
-
 }
 
 .menu__button:hover {
@@ -551,6 +550,37 @@ header {
         border-bottom: none;
     }
 
+    .nav__list {
+        height: 30px;
+    }
+
+    .logo .input{
+        width: 70%;
+        height: 35px;
+        text-align: center;
+        font-size: var(--fs-body);
+    
+    }
+    
+    .logo .search {
+        height: 35px;
+        font-size: var(--fs-body);
+    }
+
+    .menu__button {
+        width: 30px;
+        height: 25px;
+        margin: .5em;
+    }
+    
+    .change .bar1 {
+        transform: translate(0, 8px) rotate(45deg);
+    }
+    
+    .change .bar3 {
+        transform: translate(0, -8.5px) rotate(-45deg);
+    }
+
     .main__navigation  {
         display: flex;
         flex-direction: column;
@@ -567,7 +597,7 @@ header {
         text-align: center;
         margin: 0;
     }
-    
+
     .section__subtitle--about {
         color: var(--clr-light);
     }
